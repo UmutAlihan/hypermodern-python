@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hypermodern-python"
+version = "0.1.0"
+description = ""
+authors = ["UmutAlihan <alihandikel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/UmutAlihan/hypermodern-python"
+repository = "https://github.com/UmutAlihan/hypermodern-python"
+keywords = ["hypermodern", "python", "learning", "example"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
