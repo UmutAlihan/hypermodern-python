@@ -1,5 +1,6 @@
 # tests/test_console.py
 import click.testing
+import pytest
 
 from hypermodern_python import console
 
