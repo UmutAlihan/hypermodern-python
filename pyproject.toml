@@ -13,6 +13,8 @@ keywords = ["hypermodern", "python", "learning", "example"]
 python = "^3.7"
 click = "^8.1.1"
 requests = "^2.27.1"
+desert = "^2020.11.18"
+marshmallow = "^3.15.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1.1"
@@ -26,6 +28,10 @@ flake8-black = "^0.3.2"
 flake8-bugbear = "^22.3.23"
 flake8-import-order = "^0.18.1"
 safety = "^1.10.3"
+mypy = "^0.942"
+pytype = {version = "^2022.3.29", python = "3.7"}
+typeguard = "^2.13.3"
+flake8-annotations = "^2.8.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
